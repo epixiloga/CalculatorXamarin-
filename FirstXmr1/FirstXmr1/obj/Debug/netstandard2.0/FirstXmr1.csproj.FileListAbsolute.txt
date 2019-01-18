@@ -1,0 +1,14 @@
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\bin\Debug\netstandard2.0\FirstXmr1.deps.json
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\bin\Debug\netstandard2.0\FirstXmr1.dll
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\bin\Debug\netstandard2.0\FirstXmr1.pdb
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\FirstXmr1.csprojAssemblyReference.cache
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\MyPage.xaml.g.cs
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\FirstXmr1.csproj.CoreCompileInputs.cache
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\FirstXmr1.AssemblyInfoInputs.cache
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\FirstXmr1.AssemblyInfo.cs
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\FirstXmr1.dll
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\FirstXmr1.pdb
+C:\Users\M2iformation\source\repos\FirstXmr1\FirstXmr1\FirstXmr1\obj\Debug\netstandard2.0\PageCalculate.xaml.g.cs

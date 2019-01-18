@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstXmr1.MyPage">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Label Text="App M2I" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="Red" FontSize="23"></Label>
+            
+            <StackLayout Orientation="Horizontal" Spacing="50">
+                <Label Text="Nom!"  HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="50"/>
+                <Entry x:Name="Firstname" Placeholder="Votre nom"  HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Prenom!" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="50"/>
+                <Entry x:Name="Lastame" Placeholder="Votre nom"  HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Age!" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="50"/>
+                <Entry x:Name="age" Placeholder="Votre age"  HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            
+            <Button Text="Enregistrer" Clicked="Button_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
