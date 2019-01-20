@@ -36,8 +36,12 @@ namespace FirstXmr1
 		}
 		private void Button_Clicked_calculate(object sender, EventArgs e)
 		{
-			var result = new DataTable().Compute(this.num.Text, "");
-			this.num.Text = result.ToString();
+			if( this.num.Text[this.num.Text.length -1].IsDigit())
+			{
+				var result = new DataTable().Compute(this.num.Text, "");
+				this.num.Text = result.ToString();
+			}
+			
 		}
 
 		private void Button_Clicked_clear(object sender, EventArgs e)
@@ -64,6 +68,14 @@ namespace FirstXmr1
 				
 			} 
 		}
+
+		private void Button_Clicked_comma(object sender, EventArgs e)
+		{
+			if( this.num.Text[this.num.Text.length -1].IsDigit())
+				this.num.Text += ".";
+			
+		}
+
 
 
 		
