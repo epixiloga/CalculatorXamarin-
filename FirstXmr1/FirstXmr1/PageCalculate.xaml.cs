@@ -22,6 +22,7 @@ namespace FirstXmr1
 		private void Button_Clicked_num(object sender, EventArgs e)
 		{
 			var myButton = (Button)sender;
+			if( this.num.Text == "0" )	this.num.Text = "";
 			this.num.Text += myButton.Text;
 
 			//return int.Parse(this.num.Text);
@@ -43,5 +44,28 @@ namespace FirstXmr1
 		{
 			this.num.Text = "0";
 		}
+
+		private void Button_Clicked_plusMinus(object sender, EventArgs e)
+		{
+			if(int.tryParse(this.num.Text, out int result))
+			{
+				if(result>0)
+					this.num.Text = "-" + result;
+				else
+					this.num.Text = "" + result;
+			} 
+		}
+
+		private void Button_Clicked_pourcent(object sender, EventArgs e)
+		{
+			if(int.tryParse(this.num.Text, out int result))
+			{
+				this.num.Text = "" + result/100;
+				
+			} 
+		}
+
+
+		
 	}
 }

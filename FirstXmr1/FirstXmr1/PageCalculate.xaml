@@ -22,8 +22,8 @@
                 </Grid.ColumnDefinitions>
                 <Label  x:Name="num" Text="0" Grid.Row="1" Grid.ColumnSpan="4"  />
                 <Button Text="AC" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked_clear" />
-                <Button  Text="+/-" Grid.Row="2" Grid.Column="1" />
-                <Button  Text="%" Grid.Row="2" Grid.Column="2"/>
+                <Button  Text="+/-" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked_plusMinus" />
+                <Button  Text="%" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked_pourcent"/>
                 <Button  Text="/" Grid.Row="2" Grid.Column="3" Clicked="Button_Clicked_operator"/>
                 <Button  Text="7" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked_num"/>
                 <Button  Text="8" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked_num"/>
@@ -38,7 +38,7 @@
                 <Button  Text="3" Grid.Row="5" Grid.Column="2" Clicked="Button_Clicked_num"/>
                 <Button  Text="+" Grid.Row="5" Grid.Column="3" Clicked="Button_Clicked_operator"/>
                 <Button  Text="0" Grid.Row="6" Grid.ColumnSpan="2" Clicked="Button_Clicked_num"/>
-                <Button  Text="," Grid.Row="6" Grid.Column="2" />
+                <Button  Text="," Grid.Row="6" Grid.Column="2" Clicked="Button_Clicked_comma" />
                 <Button  Text="=" Grid.Row="6" Grid.Column="3" Clicked="Button_Clicked_calculate"/>
             </Grid>
         </StackLayout>
